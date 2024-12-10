@@ -32,12 +32,12 @@
 </script>
 <template>
     <div class="bg-dark">
-        <button type="button" class="btn btn-info">Yeni</button>
-        <button type="button" @click="addOrUpdate" class="btn btn-success">Kaydet</button>
-        <button type="button" class="btn btn-primary">Liste</button>
-        <button type="button" class="btn btn-warning">Geri</button>
-        <button type="button" class="btn btn-warning">İleri</button>
-        <button type="button" class="btn btn-danger">Sil</button>
+        <button type="button" class="btn btn-sm btn-info">Yeni</button>
+        <button type="button" @click="addOrUpdate" class="btn btn-sm btn-success">Kaydet</button>
+        <button type="button" class="btn btn-sm btn-primary">Liste</button>
+        <button type="button" class="btn btn-sm btn-warning">Geri</button>
+        <button type="button" class="btn btn-sm btn-default">İleri</button>
+        <button type="button" class="btn btn-sm btn-danger">Sil</button>
     </div>
 </template>
 
